@@ -1,0 +1,22 @@
+{
+  "name": "cypress-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress.config.js",
+  "scripts": {
+    "lint": "cypress-eslint",
+    "lint:fix": "eslint --fix ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress-eslint": "^1.1.0",
+    "cypress-eslint-preprocessor": "^1.2.2",
+    "eslint": "^8.56.0",
+    "eslint-plugin-cypress": "^2.15.1",
+    "eslint-plugin-react": "^7.33.2",
+    "faker": "^5.5.3",
+    "prettier": "^3.2.4"
+  }
+}
